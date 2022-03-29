@@ -4,7 +4,7 @@ phases:
 
   install: 
     commands:
-      - go install golang.org/x/lint/golint #github.com/golang/lint/golint/golint.go
+      - go get -u https://github.com/golang/lint/blob/6edffad5e616/golint/ #github.com/golang/lint/golint/golint.go
 
   pre_build: 
     commands:
@@ -24,8 +24,8 @@ phases:
 artifacts:
   files:
     - app
-    - appspec.yml
+    #- appspec.yml
     - buildspec.yml
     - config/*
-    - codedeploy/*
+    # - codedeploy/*
     - cloudformation/*
