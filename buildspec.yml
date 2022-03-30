@@ -4,7 +4,7 @@ phases:
 
   install: 
     commands:
-      - go install github.com/golang/lint/blob/6edffad5e616/golint/golint.go #github.com/golang/lint/golint/golint.go
+      - go install github.com/golang/lint/blob/6edffad5e6160f5949cdefc81710b2706fbcd4f6/golint/golint.go #github.com/golang/lint/golint/golint.go
 
   pre_build: 
     commands:
